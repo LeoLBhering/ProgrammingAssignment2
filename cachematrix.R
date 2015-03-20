@@ -2,7 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+# Making de function 1
 makeCacheMatrix <- function(x = matrix()) {
   m<-NULL
   set<-function(y){
@@ -19,7 +19,7 @@ list(set=set, get=get,
 
 
 ## Write a short comment describing this function
-
+# Making de function 2
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
            m<-x$getmatrix()
@@ -32,7 +32,7 @@ cacheSolve <- function(x, ...) {
     x$setmatrix(m)
     m
 }
-#Teste
+#Testing the functions
 a <- makeCacheMatrix( matrix(c(1,2,12,13), nrow = 2, ncol = 2) )
 summary(a);
 a$get();
